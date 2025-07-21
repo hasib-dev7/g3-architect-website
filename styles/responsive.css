@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+	.nav {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 5px;
+	}
+	/* nav section */
+	.nav {
+		margin-top: 40px;
+		flex-direction: column;
+		gap: 20px;
+
+		align-items: center;
+	}
+	.nav-links {
+		gap: 20px;
+	}
+	.nav-items a {
+		font-size: 18px;
+		font-weight: 400;
+	}
+}

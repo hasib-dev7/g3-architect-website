@@ -1,9 +1,54 @@
+/*  */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
+/*  */
+:root {
+	--primary: #131313;
+	--secondary: #424242;
+}
+
 /* google font */
 body {
 	font-family: "Work Sans", sans-serif;
+}
+/* content layout */
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.content-area {
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid palegreen;
+}
+/* header section */
+.header {
+	background-color: rgba(255, 144, 14, 0.1);
+}
+.nav {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-title {
+	font-size: 35px;
+	font-weight: 700;
+	color: var(--primary);
+}
+.nav-links {
+	display: flex;
+	gap: 30px;
+}
+.nav-items {
+	list-style: none;
+}
+.nav-items a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--secondary);
 }
