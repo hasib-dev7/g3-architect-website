@@ -1,15 +1,24 @@
 @media screen and (max-width: 576px) {
-	.nav {
+	.nav,
+	.banner-title,
+	.banner-paragraph {
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 5px;
+	}
+	/* shared style */
+	.primary-btn {
+		padding: 16px 24px;
+		font-size: 16px;
+		font-weight: 500;
+		border: none;
+		border-radius: 8px;
 	}
 	/* nav section */
 	.nav {
 		margin-top: 40px;
 		flex-direction: column;
 		gap: 20px;
-
 		align-items: center;
 	}
 	.nav-links {
@@ -18,5 +27,17 @@
 	.nav-items a {
 		font-size: 18px;
 		font-weight: 400;
+	}
+	/* banner section */
+	.banner-content {
+		margin-top: 70px;
+		gap: 20px;
+	}
+	.banner-title {
+		font-size: 40px;
+		font-weight: 700;
+	}
+	.banner-image > img {
+		padding: 0 5px;
 	}
 }
