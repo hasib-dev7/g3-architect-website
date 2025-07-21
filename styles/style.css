@@ -21,12 +21,10 @@ body {
 .container {
 	max-width: 1400px;
 	margin: 0 auto;
-	border: 1px solid red;
 }
 .content-area {
 	max-width: 1200px;
 	margin: 0 auto;
-	border: 1px solid palegreen;
 }
 /* shared style */
 .primary-btn {
@@ -41,6 +39,8 @@ body {
 /* header section */
 .header {
 	background-color: rgba(255, 144, 14, 0.1);
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 .nav {
 	margin-top: 50px;
@@ -247,6 +247,7 @@ body {
 	gap: 50px;
 }
 .fact-card {
+	background-color: #ffffff;
 	padding: 50px 35px;
 	display: flex;
 	flex-direction: column;
@@ -295,9 +296,22 @@ body {
 .sponspors-card figure > img {
 	width: 100%;
 }
-.sponspors-card-image{
+.sponspors-card-image {
 	display: flex;
 	padding: 5px;
 	align-items: center;
 	border: 2px dashed #0000001b;
+}
+/* footer section */
+.footer-section {
+	margin-top: 130px;
+	margin-bottom: 180px;
+	background-color: #fff4e7;
+	padding: 35px 0;
+}
+.footer-paragraph {
+	color: var(--secondary);
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
 }
