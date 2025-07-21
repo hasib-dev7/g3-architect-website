@@ -1,0 +1,9 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* google font */
+body {
+	font-family: "Work Sans", sans-serif;
+}
