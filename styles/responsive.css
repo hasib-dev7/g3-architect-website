@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
 	.nav,
 	.banner-title,
-	.banner-paragraph {
+	.banner-paragraph,
+	.team-section {
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 5px;
@@ -39,5 +40,27 @@
 	}
 	.banner-image > img {
 		padding: 0 5px;
+	}
+	/* team section */
+	.team-section {
+		flex-direction: column;
+		gap: 25px;
+	}
+	.team-image {
+		grid-template-columns: 1fr;
+		order: 2;
+	}
+	.team-list {
+		font-size: 35px;
+	}
+	.team-our {
+		font-size: 35px;
+	}
+	.team-features {
+		font-size: 35px;
+	}
+	.team-btn {
+		display: flex;
+		justify-content: center;
 	}
 }
