@@ -2,7 +2,9 @@
 	.nav,
 	.banner-title,
 	.banner-paragraph,
-	.team-section {
+	.team-section,
+	.features-section,
+	.features-title {
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 5px;
@@ -63,4 +65,20 @@
 		display: flex;
 		justify-content: center;
 	}
+	/* features section */
+	.features-section {
+		margin-top: 80px;
+		grid-template-columns: 1fr;
+	}
+	.features-content {
+		margin-top: 25px;
+	}
+	.features-title {
+		font-size: 35px;
+		padding-left: 25px;
+	}
+	.features-img-box{
+		display: none;
+	}
+	
 }
